@@ -1,0 +1,64 @@
+body {
+    background-color: #222222;
+}
+
+.canvas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 2px solid #CDEE69;
+    background-color: rgb(63, 59, 59);
+    transform: translate(-50%, -50%);
+    box-shadow: 0 1px 4px rgb(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.arena {
+    display: grid;
+    grid-template-columns: 85px 85px 85px 85px;
+    grid-template-rows: 85px 85px 85px 85px;
+    border: 1px solid black;
+    
+}
+
+.arena button {
+    background-color: lightgray;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.controls {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.controls button {
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    width: 85px;
+    font-weight: bold;
+    background-color: #CDEE69;
+}
+.controls button:hover{
+    background-color: black;
+    color:#CDEE69 ;
+}
+
+.controls span{
+    flex: 1;
+    text-align: center;
+    font-size: 18px;
+    margin: auto 0;
+    font-weight: bold;
+    color: #CDEE69;
+}
+
+.flag-message{
+    color:#CDEE69;
+    height: 80px;
+    font-weight: bold;
+}
